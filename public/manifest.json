@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "COVID-19 Status SRI LANKA.",
+  "name": "This web site brings the latest details of covid-19 pandemic status in Sri Lanka.",
   "icons": [
     {
       "src": "favicon.ico",

@@ -1,0 +1,85 @@
+.container {
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.gridContainer {
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.card {
+  margin: 0 2% !important;
+  margin: 10px !important;
+  text-align: center;
+  width: 25% !important;
+  height: 25% !important;
+}
+
+.movie-card {
+  margin: 10px !important;
+  display: inline-block;
+  height: 120px;
+  width: 205px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  vertical-align: top;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.card-header {
+  font-weight: bolder !important;
+  font-size: medium;
+}
+
+.card-value {
+  padding: 10px;
+  font-size: 25px !important;
+}
+
+.infected {
+  border-bottom: 15px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+  border-bottom: 15px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+  border-bottom: 15px solid rgba(255, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 830px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+
+  .movie-card {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 40%;
+    height: 30%;
+    display: inline-block;
+    overflow: visible;
+  }
+
+  .card-value {
+    padding: 10px;
+    font-size: 25px !important;
+    text-size-adjust: inherit;
+  }
+
+  .card-header {
+    font-weight: bolder !important;
+    font-size: medium;
+    text-size-adjust: inherit;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
